@@ -1,1 +1,4 @@
 theme: jekyll-theme-slate
+layout: page
+title: MongChe homepage
+description: A place to keep technique articles cover softwate development, system design architecture and favoring approaches of techinique skill to improve wokr effectively
