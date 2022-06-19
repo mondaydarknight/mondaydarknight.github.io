@@ -1,5 +1,3 @@
-## Articles
+[**Introduction to HTTP/2.0**](https://mondaydarknight.github.io/network/introduction-http2.html)
 
-Introduction to HTTP/2.0
-
-Eventual Consistency
+[**Eventual Consistency**](https://mondaydarknight.github.io/distributed-computing/eventual-consistency.html)
