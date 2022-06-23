@@ -13,7 +13,7 @@ title: Homepage
 <section class="container-lg p-responsive">
   <div class="clearfix gutter-spacious">
     {% for post in paginator.posts %}
-      <div class="float-left">
+      <div class="mb-4 float-left">
         <a class="text-decoration-none" href="{{ post.url }}">
           <h2 class="mb-2 fs-3">{{ post.title }}</h2>
           <p class="fs-6 fw-normal text-black-50">{{ post.description }}</p>
