@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Concepts of eventual consistency
+description: Explore the eventual consistency for distributed computing
 location: Taiwan
 tags:
 - distributed computing
