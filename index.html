@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Homepage
-permalink: /
 ---
 
 <section class="bg-gray-light">
@@ -13,13 +12,13 @@ permalink: /
 
 <section class="container-lg p-responsive">
   <div class="clearfix gutter-spacious">
-    <div class="float-left">
-      <h2 class="alt-h3">Introduction HTTP/2</h2>
-      <p class="text-gray">HTTP (Hypertext Transfer Protocol) is an application protocol that has been standard for communication between clients and servers. While its initial version 1.1 is still the most extensively implemented protocol but has disadvantages, thats' why HTTP/2 came to being. In this post, we will define HTTP/2, why it was needed, what are its advantages, why could it be disadvantageous, alongside the key differences between HTTP/2 and HTTP/1.1.</p>
-    </div>
-    <div class="mb-3 mb-md-5 col-md-6 float-left">
-      <h2 class="alt-h3 mb-2">Eventual consistency</h2>
-      <p class="text-gray">The technique of eventual consistency in distributed computing to achieve high availability</p>
-    </div>
+    {% for post in paginator.posts %}
+      <div class="float-left">
+        <a class="no-underline" href="{{ post.url }}">
+          <h2 class="alt-h3 mb-2 fw-bolder">{{ post.title }}</h2>
+        </a>
+        <p class="text-gray">{{ post.description }}</p>
+      </div>
+    {% endfor %}
   </div>
 </section>
