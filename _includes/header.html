@@ -1,5 +1,5 @@
 <header class="page-header outer" id="header_wrap">
-   <div class="inner">
+   <div class="inner text-center">
     {% if site.github.is_project_page %}
       <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
     {% endif %}
@@ -8,13 +8,11 @@
     <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
     <div class="container-lg">
-      <div class="text-center">
-        <ul>
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/" | relative_url}}" class="text-white">Wiki</a></li>
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/about" | relative_url }}" class="text-white">About</a></li>
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/contact" | relative_url}}" class="text-white">Contact</a></li>
-        </ul>
-      </div>
+      <ul>
+        <li class="d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/" | relative_url}}" class="text-white">Wiki</a></li>
+        <li class="d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/about" | relative_url }}" class="text-white">About</a></li>
+        <li class="d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/contact" | relative_url}}" class="text-white">Contact</a></li>
+      </ul>
     </div>
   
     {% if site.show_downloads %}
