@@ -7,6 +7,5 @@ url: https://mondaydarknight.github.io
 paginate: 5
 plugins:
   - jekyll-paginate
-site:
-  github_url: https://github.com/mondaydarknight
-  twitter_url: https://twitter.com/mondaydarknight
+github_url: https://github.com/mondaydarknight
+twitter_url: https://twitter.com/mondaydarknight
