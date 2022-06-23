@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introduction HTTP/2
+description: Define HTTP/2, why it was needed, what are its advantages, why could it be disadvantageous, alongside the key differences between HTTP/2 and HTTP/1.1
 location: Taiwan
 tags:
 - HTTP
