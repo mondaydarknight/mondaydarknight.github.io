@@ -3,6 +3,14 @@
     {% if site.github.is_project_page %}
     <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
     {% endif %}
-    <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+    <div class="container">
+      <div class="row">
+        <ul>
+          <li class="d-block d-sm-inline-block px-1 px-md-3"><a href="{{ site.github_url}}" class="text-white"><i class="bi bi-github"></i></a></li>
+          <li class="d-block d-sm-inline-block px-1 px-md-3"><a href="{{ site.twitter_url }}" class="text-white"><i class="bi bi-twitter"></i></a></li>
+          <li class="d-block d-sm-inline-block px-1 px-md-3"><a href="{{ author.email }}" class="text-white"><i class="bi bi-envelope-fill"></i></a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </footer>
