@@ -64,10 +64,10 @@ The master process is responsible for the following tasks.
 - Re-opening log files
 - Compiling embedded perl scripts
 
-### Cache loader
+#### Cache loader
 Cache loader process is responsible for checking the on-disk cache items and populating Nginx’s in-memory database with cache metadata, essentially, the cache loader prepares Nginx instances to work with files already stored on disk in a specially allocated directory structure. It traverses the directories her cache content metadata and update the revenant entries in shared memory and then exits when everything is clean and ready for use.
 
-### Cache Manager
+#### Cache Manager
 Cache manager is mostly responsible for cache expiration and invalidation, it stays in memory during normal Nginx operation and it restarted by the master process in the case of failure.
 
 Nginx modules contains core and functional modules, such as http and mail that provide an additional level of abstraction between the core and lower-level components, in these modules, the handling of sequence of events associated with a respective application layer protocol like HTTP, SMTP or IMAP.
