@@ -48,6 +48,8 @@ Nginx worker code includes the core and functional modules, the core is responsi
 NGINX modular architecture generally allows developers coextend the set of web server features without modifying Nginx core, modules come in slightly different incarnations, namely core modules, event modules, phase handlers, protocols, variable handlers, filters, upstreams and load balancers. However, Nginx doesn’t support `dynamically loaded modules` that are compiled along with the core at build stage.
 While handling a variety of actions associated with accepting, processing managing network connections and content retrieval, Nginx uses event notification mechanism and a number of disk I/O performance enhancements like kqueue, epoll and event ports.
 
+![Nginx architecture](https://user-images.githubusercontent.com/32161174/176599783-69d7e768-f3b0-49cb-931a-08faeba2eecd.png)
+
 Nginx doesn’t spawn a process or thread for every connection, instead, worker processes accept new requests from a shared listen docker and execute a highly efficient run-loop inside each worker to process thousands of connections per worker. 
 Upon startup, an initial set of listening sockets is created, workers then continuously accept, read from and write to the sockets while processing HTTP requests and responses.
 
