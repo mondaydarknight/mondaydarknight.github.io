@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Nginx architecutre
-description: Explore Nginx web server architecture
+description: Dig dive Nginx web server architecture
+location: Taiwan
 tags:
-- network
+- HTTP
+- Network
 ---
 
 ## Nginx architecture
