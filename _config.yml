@@ -4,7 +4,7 @@ title: Mondaydarknight
 author: MongChe Lee
 email: mondaydarknight@gmail.com
 url: https://mondaydarknight.github.io
-paginate: 5
+paginate: 10
 plugins:
   - jekyll-paginate
 github_url: https://github.com/mondaydarknight
