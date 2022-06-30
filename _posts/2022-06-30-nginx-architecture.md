@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nginx architecutre
-description: Dig dive Nginx web server architecture
+description: NGINX is a powerful web server and uses a non-threaded, event-driven architecture that enables it to outperform Apache if configured correctly. It can also do other important things, such as load balancing, HTTP caching, or be used as a reverse proxy. Dig dive Nginx web server architecture.
 location: Taiwan
 tags:
 - HTTP
